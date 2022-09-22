@@ -15,7 +15,7 @@ public class DemoTest
         ChromeDriver chromeDriver = new ChromeDriver();
         try
         {
-            SmartDriver driver = new SmartDriver(chromeDriver, "123456");
+            SmartDriver driver = new SmartDriver(chromeDriver, "<<get your api key at dev-tools.ai>>");
             driver.get("https://github.com/login");
 
             Thread.sleep(1000);
@@ -37,7 +37,7 @@ public class DemoTest
         ChromeDriver chromeDriver = new ChromeDriver();
         try
         {
-            SmartDriver driver = new SmartDriver(chromeDriver, "123456");
+            SmartDriver driver = new SmartDriver(chromeDriver, "<<get your api key at dev-tools.ai>>");
             driver.get("https://duckduckgo.com");
 
             Thread.sleep(1000);
